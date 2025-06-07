@@ -54,3 +54,9 @@ votes = {
 run_pow(pow_miners)
 run_pos(pos_stakers)
 run_dpos(dpos_delegates, votes)
+
+
+print("\n\nSummary:")
+print("PoW: Competition by power")
+print("PoS: Random weighted by stake")
+print("DPoS: Voting based selection")
