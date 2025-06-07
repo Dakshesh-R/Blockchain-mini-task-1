@@ -61,5 +61,12 @@ public class ConsensusMechanism {
         runPoS(posStakers);
         Validator dposWinner = runDPoS(dposDelegates, votes);
         System.out.println("Winner: " + dposWinner.name);
+
+        
+
+        System.out.println("\nSummary:");
+        System.out.println("PoW: Competition by power");
+        System.out.println("PoS: Random weighted by stake");
+        System.out.println("DPoS: Voting based selection");
     }
 }
